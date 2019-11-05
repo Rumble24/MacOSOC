@@ -1,0 +1,45 @@
+//
+//  HDOnlineClassroom.pch
+//  MacOnline
+//
+//  Created by 王景伟 on 2019/10/9.
+//  Copyright © 2019 王景伟. All rights reserved.
+//
+
+#ifndef HDOnlineClassroom_pch
+#define HDOnlineClassroom_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+#import <AFNetworking.h>
+#import <SDWebImage.h>
+#import <YYModel.h>
+
+
+///< 公共方法类
+#import "HDAccountTool.h"
+#import "HDSingleMethodTool.h"
+#import "HDHttpManager.h"
+
+///< 其他的
+#import "HDUrlConfig.h"
+#import "HDFunctionPch.h"
+#import "HDPchSizeConfig.h"
+
+
+///< Category
+#import "YYCategories.h"
+#import "NSString+HDCategory.h"
+#import "NSView+HDFrame.h"
+
+///< base
+#import "HDView.h"
+#import "HDButton.h"
+#import "HDImageView.h"
+#import "HDTableView.h"
+#import "HDTableViewCell.h"
+#import "HDBaseViewController.h"
+
+#endif /* HDOnlineClassroom_pch */

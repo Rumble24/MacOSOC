@@ -1,9 +1,14 @@
 # Uncomment the next line to define a global platform for your project
-platform :macos, '10.11'
+platform :macos, '10.10'
 
-target 'MacOSQQ' do
-  use_frameworks!
-  pod 'Masonry'
+target 'MacOnline' do
+
+pod 'TXIMSDK_Mac'
+pod 'AgoraRtcEngine_macOS'
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'YYModel'
 
 
 end
